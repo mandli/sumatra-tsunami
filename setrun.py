@@ -387,8 +387,8 @@ def setgeo(rundata):
     #    [topotype, minlevel, maxlevel, t1, t2, fname]
     # x = [59 54 E, 136 19 E] y = [27 53 S, 29 24 N]
     topo_data.topofiles.append([4, 1, 3, 0., 1.e10, "gebco_08_59_-27_136_29.nc"])
-    topo_data.topofiles.append([3, 1, 3, 0., 1.e10, "madras/MadrasApproachesChart.tt3"])
-    topo_data.topofiles.append([3, 1, 3, 0., 1.e10, "madras/MadrasHarborIII.tt3"])
+    topo_data.topofiles.append([3, 1, 3, 0., 1.e10, "MadrasApproachesChart.tt3"])
+    topo_data.topofiles.append([3, 1, 3, 0., 1.e10, "MadrasHarborIII.tt3"])
  
     # == setdtopo.data values ==
     dtopo_data = rundata.dtopo_data
@@ -397,7 +397,7 @@ def setgeo(rundata):
     # 
     # Create dtopo file from earthquake subfault format
     #
-    dtopo_data.dtopofiles.append([1, 3, 3, "dtopo/26dec04a.txydz"])
+    dtopo_data.dtopofiles.append([1, 3, 3, "26dec04a.txydz"])
     dtopo_data.dt_max_dtopo = 5.0
 
     # == setqinit.data values ==
