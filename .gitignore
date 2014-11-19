@@ -26,3 +26,16 @@
 *.exe
 *.out
 *.app
+
+# Topography files
+*.tt1
+*.tt2
+*.tt3
+*.topotype1
+*.topotype2
+*.topotype3
+*.asc
+*.txydz
+*.xydz
+*.xyz
+*.nc
